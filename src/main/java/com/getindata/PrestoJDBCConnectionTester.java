@@ -52,7 +52,7 @@ public class PrestoJDBCConnectionTester {
     public int connect () {
 
 
-        String driverName = "com.facebook.presto.jdbc.PrestoDriver";
+        String driverName = "io.prestosql.jdbc.PrestoDriver";
         try {
             Class.forName(driverName);
         } catch (ClassNotFoundException e) {
